@@ -70,6 +70,7 @@ public class IssueBuilder {
 				}
 			} else {
 				LOGGER.debug("There are no issues in project : " + key);
+				break;
 			}
 		}
 		return issues;
